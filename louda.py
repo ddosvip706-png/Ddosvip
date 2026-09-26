@@ -51,7 +51,7 @@ BOT_START_TIME = datetime.now()
 
 # ===== CONFIGURATION (Railway ENV Variables) =====
 BOT_TOKEN = os.getenv("BOT_TOKEN", "7416553328:AAGhKLgxSptY-hHu47mh9-CEGTZikobM47w")
-MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://mentalyadav130_db_user:YWLmTCt0mxmeq7vj@cluster0.wjgcovn.mongodb.net/?appName=Cluster0")
+MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://ddosvip706_db_user:<db_password>@cluster0.spdsunw.mongodb.net/?appName=Cluster0")
 BOT_OWNER = int(os.getenv("BOT_OWNER", "2043886515"))
 
 print("=" * 50, flush=True)
